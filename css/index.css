@@ -15,12 +15,20 @@ body {
 
 h1 {
     font-family: Great Vibes;
+    font-size: 80px;
     text-align: center;
+    color: #edf70e;
+    text-shadow: 5px 3px 0 #212121;
 }
 
 section {
     margin: 50px 5% 50px 5%;
     padding: 15px;
+}
+
+section#Connect ul {
+    display: flex;
+    justify-content: center;
 }
 
 li {
