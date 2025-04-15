@@ -21,6 +21,12 @@ h1 {
     text-shadow: 5px 3px 0 #212121;
 }
 
+div#avatar {
+    background-image: url('.img/my_photo.jpg');
+    width: 200px;
+    margin: auto;
+}
+
 section {
     margin: 50px 5% 50px 5%;
     padding: 15px;
