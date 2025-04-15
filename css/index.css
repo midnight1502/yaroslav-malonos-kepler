@@ -22,7 +22,7 @@ h1 {
 }
 
 div#avatar {
-    background-image: url('./img/my_photo.jpg');
+    background-image: url('/img/my_photo.jpg');
     width: 200px;
     margin: auto;
 }
