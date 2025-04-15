@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('.css/GreatVibes-Regular.ttf');
+  }
+
+body {
+    background-color: #00ffff;
+    color: #4b0082;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+h1 {
+    font-family: Great Vibes;
+    text-align: center;
+}
+
+section {
+    margin: 50px 5% 50px 5%;
+    padding: 15px;
+}
+
+li {
+    list-style-type: none;
+}
+
+section#Experience li {
+    border-block-style: groove;
+    writing-mode: horizontal-tb;
+    direction: rtl;
+    width: 250px;
+}
+
+section#about {
+    text-align: justify;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 400;
+    color: #000000;
+}
+
