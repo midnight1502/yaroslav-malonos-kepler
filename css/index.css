@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Great Vibes';
-    src: url('.css/GreatVibes-Regular.ttf');
+    src: url('./GreatVibes-Regular.ttf');
   }
 
 body {
@@ -15,12 +15,32 @@ body {
 
 h1 {
     font-family: Great Vibes;
+    font-size: 80px;
     text-align: center;
+    color: #edf70e;
+    text-shadow: 5px 3px 0 #212121;
+}
+
+div#avatar {
+    background-image: url('./img/my_photo.jpg');
+    background-size: contain;
+    width: 200px;
+    height: 300px;
+    margin: auto;
 }
 
 section {
     margin: 50px 5% 50px 5%;
     padding: 15px;
+}
+
+section#Connect ul {
+    display: flex;
+    justify-content: center;
+}
+
+section#Connect li {
+    margin: auto;
 }
 
 li {
