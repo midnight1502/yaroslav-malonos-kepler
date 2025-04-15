@@ -31,6 +31,10 @@ section#Connect ul {
     justify-content: center;
 }
 
+section#Connect li {
+    margin: auto;
+}
+
 li {
     list-style-type: none;
 }
