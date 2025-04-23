@@ -61,7 +61,12 @@ section#Connect ul {
 }
 
 section#Connect li {
-    margin: auto;
+    writing-mode: horizontal-tb;
+    direction: rtl;
+    width: 200px;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 10px 0;
 }
 
 section#Experience div.job-exp {
@@ -78,7 +83,13 @@ div.co-pos p.position {
     font-style: italic;
 }
 
+div.desc {
+    width: 65%;
+}
+
 div.desc ul {
+    display: flex;
+    flex-wrap: wrap;
     list-style-type: none
 }
 
