@@ -95,11 +95,11 @@ section#Skills ul li {
     padding: 5px;
 }
 
-div.co-pos p.company {
-    font-weight: 600;
+p.company {
+    font-weight: 400;
 }
 
-div.co-pos p.position {
+p.position {
     font-style: italic;
 }
 
