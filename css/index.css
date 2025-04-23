@@ -18,9 +18,13 @@ div#navbar {
     top: 0;
     overflow: hidden;
     background-color: #3005a5;
+    display: flex;
+    justify-content: center;
 }
 
 div#navbar a {
+    font-size: 18px;
+    font-weight: 400;
     float: left;
     display: block;
     color: #f2f2f2;
@@ -76,8 +80,14 @@ section#Experience div.job {
     text-align: left;
 }
 
+section#Experience div.desc {
+    width: 60%;
+    text-align: center;
+}
+
 section#Skills ul {
     display: flex;
+    text-decoration: none;
 }
 
 section#Skills ul li {
@@ -86,7 +96,7 @@ section#Skills ul li {
 }
 
 div.co-pos p.company {
-    font-weight: 300;
+    font-weight: 600;
 }
 
 div.co-pos p.position {
