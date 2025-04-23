@@ -20,7 +20,7 @@ body {
     background-color: #3005a5;
 }
 
-#navbar li {
+#navbar a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -29,7 +29,8 @@ body {
     text-decoration: none;  
 }
 
-#navbar li:hover {
+#navbar a:hover {
+
     background-color: #edf70e;
     color:#212121;
 }
@@ -69,10 +70,10 @@ section#Connect li {
     padding: 10px 0;
 }
 
-section#Experience div.job-exp {
+section#Experience div.job {
     display: flex;
     justify-content: space-between;
-    width: auto;
+    text-align: left;
 }
 
 div.co-pos p.company {
@@ -83,13 +84,7 @@ div.co-pos p.position {
     font-style: italic;
 }
 
-div.desc {
-    width: 65%;
-}
-
 div.desc ul {
-    display: flex;
-    flex-wrap: wrap;
     list-style-type: none
 }
 
