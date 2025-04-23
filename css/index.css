@@ -13,6 +13,27 @@ body {
     font-variation-settings: "wdth" 100;
 }
 
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #3005a5;
+}
+
+#navbar li {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;  
+}
+
+#navbar li:hover {
+    background-color: #edf70e;
+    color:#212121;
+}
+
 h1 {
     font-family: Great Vibes;
     font-size: 80px;
@@ -43,15 +64,22 @@ section#Connect li {
     margin: auto;
 }
 
-li {
-    list-style-type: none;
+section#Experience div.job-exp {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
 }
 
-section#Experience li {
-    border-block-style: groove;
-    writing-mode: horizontal-tb;
-    direction: rtl;
-    width: 250px;
+div.co-pos p.company {
+    font-weight: 300;
+}
+
+div.co-pos p.position {
+    font-style: italic;
+}
+
+div.desc ul {
+    list-style-type: none
 }
 
 section#about {
