@@ -13,14 +13,14 @@ body {
     font-variation-settings: "wdth" 100;
 }
 
-#navbar {
+div#navbar {
     position: sticky;
     top: 0;
     overflow: hidden;
     background-color: #3005a5;
 }
 
-#navbar a {
+div#navbar a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -29,7 +29,7 @@ body {
     text-decoration: none;  
 }
 
-#navbar a:hover {
+div#navbar a:hover {
 
     background-color: #edf70e;
     color:#212121;
@@ -74,6 +74,15 @@ section#Experience div.job {
     display: flex;
     justify-content: space-between;
     text-align: left;
+}
+
+section#Skills ul {
+    display: flex;
+}
+
+section#Skills ul li {
+    margin: 0 15px;
+    padding: 5px;
 }
 
 div.co-pos p.company {
