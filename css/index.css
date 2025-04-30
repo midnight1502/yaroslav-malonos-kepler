@@ -13,6 +13,32 @@ body {
     font-variation-settings: "wdth" 100;
 }
 
+div#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #3005a5;
+    display: flex;
+    justify-content: center;
+}
+
+div#navbar a {
+    font-size: 18px;
+    font-weight: 400;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;  
+}
+
+div#navbar a:hover {
+
+    background-color: #edf70e;
+    color:#212121;
+}
+
 h1 {
     font-family: Great Vibes;
     font-size: 80px;
@@ -40,18 +66,45 @@ section#Connect ul {
 }
 
 section#Connect li {
-    margin: auto;
-}
-
-li {
-    list-style-type: none;
-}
-
-section#Experience li {
-    border-block-style: groove;
     writing-mode: horizontal-tb;
     direction: rtl;
-    width: 250px;
+    width: 200px;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+section#Experience div.job {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+section#Experience div.desc {
+    width: 60%;
+    text-align: center;
+}
+
+section#Skills ul {
+    display: flex;
+    text-decoration: none;
+}
+
+section#Skills ul li {
+    margin: 0 15px;
+    padding: 5px;
+}
+
+p.company {
+    font-weight: 400;
+}
+
+p.position {
+    font-style: italic;
+}
+
+div.desc ul {
+    list-style-type: none
 }
 
 section#about {
