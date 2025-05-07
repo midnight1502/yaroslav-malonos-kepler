@@ -1,7 +1,7 @@
 const date = new Date();
 let thisYear = date.getFullYear();
 
-# SKILLS
+/* SKILLS */
 
 const skillsList = ["Web Development (HTML/CSS, PHP, JS)", "PC Hardware Installation", "Networks and system administration", "SW/HW Maintenance", "Database design and administration",
 "Graphic Design", "Time management", "Team-working", "Microsoft Windows, Office", "Troubleshooting", "Stress resistance"];
@@ -12,7 +12,7 @@ for (i = 0; i < skillsList.length; i++) {
     mySkills.appendChild(document.createElement("li")).appendChild(document.createTextNode(skillsList[i]));
 }
 
-# FOOTER
+/* FOOTER */
 
 const footer = document.createDocumentFragment();
 const f_content = footer
