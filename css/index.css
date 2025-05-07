@@ -118,3 +118,12 @@ section h2 {
     color: #000000;
 }
 
+footer {
+    background-color: #3005a5;
+    font-size: 18px;
+    font-weight: 400;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px; 
+}
+
