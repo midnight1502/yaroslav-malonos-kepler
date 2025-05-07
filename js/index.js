@@ -18,7 +18,7 @@ const footer = document.createDocumentFragment();
 const f_content = footer
 .appendChild(document.createElement("footer"))
 .appendChild(document.createElement("p"));
-f_content.textContent = "Yaroslav Malonos " + thisYear + " . All rights reserved.";
+f_content.textContent = "Yaroslav Malonos \xA9 " + thisYear + ". All rights reserved.";
 
 document.body.appendChild(footer);
 
