@@ -123,6 +123,63 @@ section h2 {
     color: #000000;
 }
 
+section#Message form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section#Message form input {
+    width: 150px;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+section#Message form button {
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+section#Message form textarea {
+    width: 250px;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+section#allMessages {
+    display: none;
+}
+
+section#allMessages ul#messageList {
+    width: 60%;
+}
+
+section#allMessages ul#messageList li {
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+section#allMessages ul#messageList li a {
+    padding: 5px;
+}
+
+section#allMessages ul#messageList li span {
+    padding: 5px;
+}
+
+section#allMessages ul#messageList li button {
+    margin-left: 5%;
+}
+
+
 footer {
     background-color: #3005a5;
     font-size: 18px;
