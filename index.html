@@ -17,6 +17,7 @@
         <a href="#Skills">Skills</a>
         <a href="#Projects">Projects</a>
         <a href="#Connect">Connect</a>
+        <a href="#Message">Leave a Message</a>
     </div>
     <h1>Yaroslav Malonos</h1>
     <div id="avatar"></div>
@@ -143,7 +144,22 @@
             <li><a href="https://www.facebook.com/yaroslav.malonos/"><img src="css/img/facebook.png" height="50px" target="_blank"></a></li>
         </ul>
     </section>
-
+    <section id="Message">
+        <h2>Leave a Message</h2>
+        <form name="leave_message">
+            <label for="usersName">Name</label><br>
+            <input type="text" name="usersName" required>
+            <label for="usersEmail">E-Mail</label><br>
+            <input type="email" name="usersEmail" required>
+            <label for="usersMessage">Message</label><br>
+            <textarea name="usersMessage" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <section id="allMessages">
+        <h2>Messages</h2>
+        <ul id="messageList"></ul>
+    </section>
     <script src="./js/index.js"></script>
 </body>
 </html>
