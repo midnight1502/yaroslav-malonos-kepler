@@ -63,6 +63,30 @@ messageForm.addEventListener("submit", messageSubmit);
 const messagesList = document.querySelector('[id="allMessages"]');
 messagesList.addEventListener("click", messageRemove);
 
+// Fetch projects from GitHub
 
+const projectSection = document.getElementById("Projects");
+const projectList = projectSection.querySelector('ul');
+
+fetch('https://api.github.com/users/midnight1502/repos')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Request failed');
+    }
+    return response.json(); // Parse the response as JSON
+  })
+  .then(data => {
+    const myRepos = data;
+    for (i = 0; i < myRepos.length; i++) {
+      projectList.appendChild(document.createElement('li'))
+      .appendChild(document.createElement('a'));
+      projectList.lastElementChild.lastElementChild.setAttribute('href', 'https://github.com/midnight1502/' + myRepos[i].name);
+      projectList.lastElementChild.lastElementChild.setAttribute('target', '_blank');
+      projectList.lastElementChild.lastElementChild.textContent = myRepos[i].name;
+    }
+  })
+  .catch(error => {
+    console.error('An error occurred:', error);
+  });
 
 
